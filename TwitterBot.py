@@ -10,7 +10,7 @@ auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 auth.secure = True
 api = tweepy.API(auth)
-myBot = api.get_user(screen_name = '@DidTheFoxesWin')
+myBot = api.get_user(screen_name = '@tutbot')
 myList = api.get_list("@"+myBot.screen_name,slug='sorry-for-adding-you')
 myData = DataManager("DataFile.txt")
 listData = DataManager("listData.txt")
@@ -44,9 +44,9 @@ for tweet in tweepy.Cursor(api.search,q='#Marist').items():
             else:
                 count403 += 1
                 print("Another 403 error. Total: " + str(count403))
-                sleep(1)
+                sleep(10)
         else:
-           sleep(10) 
+           sleep(30) 
         
         continue
     except StopIteration:
