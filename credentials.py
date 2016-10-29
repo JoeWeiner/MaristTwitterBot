@@ -5,8 +5,7 @@
 # 3. Head to apps.twitter.com and select Keys and Access Tokens
 
 CONSUMER_KEY = 'iLwhpUWO2K5I1CeNPpKIusa61'
-CONSUMER_SECRET = 'uqrjQo13SerCYRHffdVNusooRpO1rCMIyneF8NA8Y3PaXw3m7D'
-
+#Secret Token Taken Out of public repo
 # Create a new Access Token
 ACCESS_TOKEN = '792172843324899329-8OE695NCOfJ7toMqa2BEBTRvFcRXAOt'
-ACCESS_SECRET = 'JLG992xN4DpbGwNAMbHho4ZmqTw3S2uFUSPmuntm8E6Sw'
+#Secret Token Taken Out of public repo
