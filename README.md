@@ -3,12 +3,17 @@ A nifty twitter bot that tweets the entirety of the Marist College Student Handb
 
 
 This bot was written in Python 3.5.2 for hackMarist 2016
-The packages used to build this bot were as follows:
+The packages used to build this bot were as follows: 
+
+tweepy
+requests
+DataManager
 pip
 setuptools
 urllib3
 json
 and of course the twitter API
+as well as others
 
 This is one of my personal first projects in Python 3.5.2, I had previously worked scarcely with Python 2.7, however, this still proved to be a fun challenge and a nice way to hone my skills.
 
