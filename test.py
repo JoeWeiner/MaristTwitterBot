@@ -13,7 +13,6 @@
 #It can be downloaded in the Git repository, however, I'm not sure what its use would be for a non-Marist Student
 
 
-# do not edit
 import requests
 import tweepy
 from time import sleep
