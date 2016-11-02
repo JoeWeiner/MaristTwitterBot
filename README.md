@@ -1,6 +1,5 @@
 # MaristTwitterBot
-A nifty twitter bot that tweets the entirety of the Marist College Student Handbook and Code of Conduct
-
+A nifty twitter bot that tweets the from the #Marist
 
 This bot was written in Python 3.5.2 for hackMarist 2016
 The packages used to build this bot were as follows: 
